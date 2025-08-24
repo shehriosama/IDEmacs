@@ -5,9 +5,13 @@
 (add-to-list 'load-path "~/.emacs.d/rc/")
 (load "~/.emacs.d/rc/ifix.el")
 (load "~/.emacs.d/rc/ide.el")
+(setq treesit-extra-load-path '("~/.emacs.d/tree-sitter"))
 
 ;;; Appearance
-(setq default-frame-alist '((font . "JetBrainsMono Nerd Font 13")))
+(setq default-frame-alist '((width . 110) (height . 36)))
+(setq initial-frame-alist '((width . 110) (height . 36)))
+
+(setq default-frame-alist '((font . "JetBrainsMono Nerd Font 12")))
 
 (menu-bar-mode 0)
 (tool-bar-mode 0)
@@ -28,10 +32,9 @@
 
 ;;: Ultra-scroll
 (use-package ultra-scroll
-  ;:vc (:url "https://github.com/jdtsmith/ultra-scroll") ; if desired (emacs>=v30)
   :init
-  (setq scroll-conservatively 3 ; or whatever value you prefer, since v0.4
-        scroll-margin 0)        ; important: scroll-margin>0 not yet supported
+  (setq scroll-conservatively 3
+        scroll-margin 0)
   :config
   (ultra-scroll-mode 1))
 

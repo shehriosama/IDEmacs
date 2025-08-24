@@ -1,6 +1,6 @@
-<img src="./images/emacs.svg" alt="IDEmacs" align="right"/> IDEmacs
+<img src="./images/emacs.png" alt="IDEmacs" align="right"/> IDEmacs
 ======
-it's just a config not a full distro and still in progress
+***it's just a config not a full distro and still in progress, and it's not supposed to work except my machine. I just want to make it a fancy github page.***
 
 the full [GNU Emacs](https://www.gnu.org/software/emacs/) IDE configures for:
 
@@ -22,8 +22,6 @@ the full [GNU Emacs](https://www.gnu.org/software/emacs/) IDE configures for:
 ![alt text](./images/java.png "shot1")
 
 # Installation
-
-1. delete the ~/.emacs.d that in your $HOME directory
-2. move ~/.emacs.d that from IDEmacs to your $HOME directory
+clone it, fork it and edit it with yourself
 
 **Congratulations!** it will work

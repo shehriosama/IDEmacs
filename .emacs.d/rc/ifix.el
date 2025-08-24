@@ -1,7 +1,7 @@
 ;; -*- lexical-binding: t; -*-
 ;;; Fix inputs
 ;;; Code:
-(evil-mode 1)
+;;; (evil-mode 1)
 
 (global-set-key (kbd "C-x C-g") 'find-file-at-point)
 (global-set-key (kbd "C-c i m") 'imenu)
